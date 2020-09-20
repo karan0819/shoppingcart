@@ -23,7 +23,8 @@ export class CartComponent implements OnInit {
   }
 
   addProductToCart(product: Product) {
-    for (let i in this.cartItems) {
+    this.cartItems.push(product);
+ /*   for (let i in this.cartItems) {
       if (this.cartItems[i].id === product.id) {
         this.cartItems[i].qty++
       }
@@ -39,6 +40,6 @@ export class CartComponent implements OnInit {
       this.cartTotal = 0
       this.cartItems.forEach(item => {
         this.cartTotal += (item.qty * item.price)
-      })
+      })*/
     }
   }
