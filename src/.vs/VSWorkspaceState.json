@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\components",
+    "\\app\\components\\shared",
+    "\\app\\components\\shared\\footer",
+    "\\app\\components\\shared\\header",
+    "\\app\\components\\shared\\nav",
+    "\\app\\components\\shopping-cart",
+    "\\app\\components\\shopping-cart\\product-list",
+    "\\app\\components\\shopping-cart\\product-list\\product-item",
+    "\\environments"
+  ],
+  "SelectedNode": "\\environments\\environment.ts",
+  "PreviewInSolutionExplorer": false
+}
